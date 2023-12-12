@@ -7,10 +7,16 @@ If you want to make your own language for the transliteration menu you'll need t
 ```
 {
   "__comment": {
-    "msg 1": "this part shows all of the special rules you can add to characters, if you choose to add them, add them at the end of the character.",
-    "msg 2": "For example, Greek Sigma is _"s": "σ$ς"_. The _$_ means that the sound _s_ is usually _σ_, except at the end of a word, where it becomes",
-    "msg 3": "_ς_. When a list of possible transcriptions is provided the one who's rules, starting from the first, will be checked, and the first one",
-    "msg 4": "that is followed properly is chosen. These special characters can therefore not be used in the actual transcription."
+    "msg 1": "this part shows all of the special rules you can add",
+    "msg 2": "to characters, if you choose to add them, add them at", 
+    "msg 3": "the end of the character. For example, Greek Sigma is",
+    "msg 4": "_"s": "σ$ς"_. The _$_ means that the sound _s_ is",
+    "msg 5": "usually _σ_, except at the end of a word, where it",
+    "msg 6": "becomes_ς_. When a list of possible transcriptions is",
+    "msg 7": "provided the one who's rules, starting from the first,",
+    "msg 8": "will be checked, and the first one that is followed",
+    "msg 9": "properly is chosen. These special characters can",
+    "msg 0": "therefore not be used in the actual transcription."
   },
   "language_name": {
     "script_one": {
