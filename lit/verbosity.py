@@ -40,4 +40,4 @@ class Speaker:
                 time.sleep(pause)
 
 
-s = Speaker(True)
+s = Speaker(False)
