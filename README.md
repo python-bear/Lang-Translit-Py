@@ -1,7 +1,7 @@
 # Lang-Translit-Py
 Basic transliteration/transcription from IPA into a range of other languages, with choice of script and dialects.
 
-It's pretty self explanatory, if you encounter any errors then you may want to go into verbosity.py and set line 43, which is ```s = Speaker(False)``` by default to ```s = Speaker(True)```, which will turn on verbosity. If you still can't figure out what's wrong it's probably that there are characters in your input that are confusing the program, such as non-ASCII punctuation or characters that aren't in the IPA, so remove those and try again before going on to debug the code at all.
+To run it just ```cd``` into ```/lit``` and then run ```python main.py``` or it's corresponding command on your system. You'll need the IPA that you want to transcript/transliterate in your clipboard (with _newlines_ and _carriage returns_ removed), personally I used the IPA translator at [Unalega.com](https://unalengua.com/ipa-translate). It's pretty self explanatory, if you encounter any errors then you may want to go into verbosity.py and set line 43, which is ```s = Speaker(False)``` by default to ```s = Speaker(True)```, which will turn on verbosity. If you still can't figure out what's wrong it's probably that there are characters in your input that are confusing the program, such as non-ASCII punctuation or characters that aren't in the IPA, so remove those and try again before going on to debug the code at all.
 
 If you want to make your own language for the transliteration menu you'll need to add it to ```ipa-to-lang.json```, you should be able to figure it out. But here is the basics of the structure:
 ```
